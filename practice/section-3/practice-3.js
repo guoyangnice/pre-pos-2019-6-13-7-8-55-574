@@ -21,7 +21,6 @@ function createUpdatedCollection(collectionA, objectB) {
   var  collectionB = objectB.value;
   for (var i = 0;i < result.length;i++)
   {
-
     for (var j = 0;j<collectionB.length;j++)
     {
       if (result[i].key == collectionB[j])
