@@ -12,5 +12,6 @@ function collectSameElements(collectionA, collectionB) {
     result = collectionD.filter(function(v){
         return collectionC.indexOf(v)!==-1 // 利用filter方法来遍历是否有相同的元素
     })
+    
     return result;
 }

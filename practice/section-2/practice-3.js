@@ -26,5 +26,4 @@ function countSameElements(collection) {
     result.push({name:value,summary:key})
   });
   return result;  
-
 }
